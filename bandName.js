@@ -1,4 +1,4 @@
-bandName = (clothesColor, lastFood) => {
+const bandName = (clothesColor, lastFood) => {
   const firstInitial = clothesColor[0];
   const secondInitial = lastFood[0];
   const firstInitialUpperCase = firstInitial.toUpperCase();
